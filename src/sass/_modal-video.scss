@@ -1,3 +1,9 @@
+.modal .video {
+  @media screen and (max-width: 480px) {
+    top: 25%;
+    transform: translate(-50%, -50%);
+  }
+}
 .modal__video {
   display: flex;
   justify-content: center;
