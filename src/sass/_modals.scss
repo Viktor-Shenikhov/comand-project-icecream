@@ -16,21 +16,25 @@
   margin-bottom: 26px;
 }
 
-.checkbox {
-  position: absolute;
-  appearance: none;
-}
+// .checkbox {
+//   position: absolute;
+//   appearance: none;
+// }
 // .checkbox__icon {
-//    display: inline-block;
-//    width: 16px;
-//    height: 15px;
-//   border: 10px solid #bc0b0b;
+//   display: flex;
+//   width: 132px;
+//   height: 98px;
 //   border-radius: 4px;
 // }
 
-.checkbox:checked + .checkbox__icon {
-  -webkit-appearance: checkbox;
-  z-index: 777;
-  border: 2px solid blueviolet;
-  background-color: aquamarine;
-}
+// .checkbox:checked + .checkbox__icon {
+//   -webkit-appearance: checkbox;
+//   border: 2px solid blueviolet;
+//   border-radius: 10px;
+//   background-image: linear-gradient(
+//     rgba(47, 48, 58, 0.4),
+//     rgba(47, 48, 58, 0.4)
+//   );
+//   background-color: aquamarine;
+//   z-index: 777;
+// }
